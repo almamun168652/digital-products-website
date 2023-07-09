@@ -84,7 +84,7 @@
     padding: 30px 100px;
 }
 
-#about .sec-title{
+.sec-title{
     font-size: 54px;
     font-weight: bold;
     text-align: center;
@@ -111,3 +111,48 @@
 
 /* services style */
 
+#services{
+    background:rgba(0, 0, 0, 0.276);
+    padding: 50px 150px;
+    background-image: url('../images/background.png'),
+    linear-gradient(rgb(5, 5, 5), rgb(5, 5, 5));
+}
+
+#services h2{
+    color: #fff;
+}
+
+.service-item-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item{
+    text-align: center;
+    width: 200px;
+    height: 280px;
+    color: #fff;
+    box-shadow: 0px 0px 50px #8c8b8baf;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.service-item img{
+    width: 70px;
+}
+
+
+.service-item h1{
+    padding: 15px;
+}
+
+.service-item p{
+    margin-bottom: 15px;
+}
+
+.details-btn{
+    background-color: #1c1b1b;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+}
