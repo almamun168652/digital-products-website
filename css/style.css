@@ -115,7 +115,7 @@
     background:rgba(0, 0, 0, 0.276);
     padding: 50px 150px;
     background-image: url('../images/background.png'),
-    linear-gradient(rgb(5, 5, 5), rgb(5, 5, 5));
+    linear-gradient(rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91));
 }
 
 #services h2{
@@ -132,9 +132,10 @@
     width: 200px;
     height: 280px;
     color: #fff;
-    box-shadow: 0px 0px 50px #8c8b8baf;
+    box-shadow: 0px 0px 50px #626262af;
     border-radius: 10px;
     padding: 15px;
+    border: 1px solid #8c8b8baf;
 }
 
 .service-item img{
@@ -155,4 +156,55 @@
     color: #fff;
     padding: 12px 24px;
     border: none;
+}
+
+
+
+/* footer css */
+
+#footer{
+    width: 100%;
+    background-image: url(./asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    padding: 50px 150px;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+
+.foot-content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.foot-content-item img{
+    width: 170px;
+}
+
+.foot-content-item p{
+    width: 235px;
+    line-height: 1.5rem;
+    margin-top: 8px;
+}
+
+.foot-content-item h3{
+    margin-bottom: 20px;
+}
+
+.foot-content-item ul li{
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.foot-content-item ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
 }
