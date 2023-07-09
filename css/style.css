@@ -1,0 +1,38 @@
+/* common css */
+ *{
+    margin:0;
+    padding:0;
+ }
+
+
+
+
+
+ /* header css */
+
+ #navbar {
+    display: flex;
+    background:#424141;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: center;
+ }
+
+.logo img{
+    width: 130px;
+}
+
+#menu{
+    display: flex;
+    gap: 30px;
+}
+
+#menu li{
+    list-style: none;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 4rem;
+}
