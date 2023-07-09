@@ -36,3 +36,78 @@
     color: #fff;
     line-height: 4rem;
 }
+
+
+/* banner css */
+
+#banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    height: 100vh;
+    align-items: center;
+    background-image: url('../images/background.png') ,
+    linear-gradient(rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91));
+}
+
+.banner-content{
+    color: #fff;
+}
+
+.banner-content h1{
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-content p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn{
+    background: red;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner-img img{
+    width: 350px;
+}
+
+/* about style */
+
+#about{
+    padding: 30px 100px;
+}
+
+#about .sec-title{
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-work{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-content p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+.about-img img{
+    width: 300px;
+}
+
+
+
+/* services style */
+
